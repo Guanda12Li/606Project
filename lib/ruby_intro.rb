@@ -36,12 +36,12 @@ end
 
 def starts_with_consonant? s
   # YOUR CODE HERE
-  s =~ /^[bcdfghj-np-tv-z]/i # latency? change test line38
+  s =~ /^[bcdfghj-np-tv-z]/i 
 end
 
 def binary_multiple_of_4? s
   # YOUR CODE HERE
-  # the first two digits can't be '1'
+  # the last two digits can't be '1'
   if s =='0' then return true end
   s =~ /^[01]*1[01]*00$/
 end
